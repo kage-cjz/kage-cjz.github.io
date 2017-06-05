@@ -1,0 +1,206 @@
+/*配件*/
+.fitting{
+    background: #F5F5F5;
+}
+
+.fitting .ww{
+    height: 69px;
+    padding:21px 21px 0 21px;
+}
+.fitting .ww .pj{
+    font:700 21px "微软雅黑";
+    color:#333333;
+    line-height: 69px;
+    float: left;
+}
+.fitting .ww ul{
+    float: right;
+}
+.fitting .ww ul li {
+    float: left;
+    margin-left: 29px;
+    padding-top: 18px;
+    font:700 15px "微软雅黑";
+    line-height: 23px;
+    cursor:pointer;
+}
+/*商品部分*/
+.fitting .n{
+    display: none;
+}
+.wqgoods .goods-top ul,.wqgoods .goods-bom ul{
+    height: 300px;
+    position: relative;
+}
+.wqgoods .goods-top ul li,.wqgoods .goods-bom ul li{
+    float: left;
+    width: 234px;
+    height: 97px;
+    padding-top: 203px;
+    margin-right: 14px;
+    background: #fff;
+    position: relative;
+
+}
+.wqgoods .goods-top ul li.one{
+    padding: 0;
+    height: 300px;
+}
+.wqgoods .goods-top ul li.five{
+    margin-right: 0;
+
+}
+.wqgoods .goods-bom ul li.five{
+    margin-right: 0;
+    background: #F5F5F5;
+    padding: 0;
+}
+.wqgoods .goods-top ul img{
+    /*background: url(../images/hot/1.jpg)*/
+}
+.wqgoods .goods-bom ul .one1{
+    padding: 0;
+    height: 300px;
+}
+.wqgoods .goods-bom ul .one1 img {
+
+    width: 234px;
+    height: 300px;
+}
+.wqgoods .goods-top ul .two .two-1,.wqgoods .goods-bom ul .two .two-1{
+    height: 20px;
+    width: 64px;
+    background: #E53935;
+    line-height: 20px;
+    font-size: 12px;
+    color:#fff;
+    position: absolute;
+    left: 85px;
+    top: 0;
+}
+.wqgoods .goods-bom ul .two .xp{
+    background:#83C44E
+}
+.wqgoods .goods-top ul .five .xp{
+    background:#83C44E
+
+}
+.wqgoods .goods-top ul .two .my{
+    background:#FFAC13
+}
+.wqgoods .goods-top ul .two .two-2 img,.wqgoods .goods-bom ul .two .two-2 img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 42px;
+    top: 34px;
+}
+.wqgoods .goods-top ul .two .two-3 .p1,.wqgoods .goods-bom ul .two .two-3 .p1{
+    line-height: 20px;
+    font-size: 12px;
+    color:#333333;
+    text-align: center;
+}
+/*......*/
+.wqgoods .goods-top ul .two .two-3 .p2,.wqgoods .goods-bom ul .two .two-3 .p2{
+
+}
+.wqgoods .goods-top ul .two .two-3 .p2 span,.wqgoods .goods-bom ul .two .two-3 .p2 span{
+    color:#FF6700;
+    line-height: 22px;
+    text-align: center;
+}
+.wqgoods .goods-top ul .two .two-3 .p2  del,.wqgoods .goods-bom ul .two .two-3 .p2  del{
+    color:#B0B0B0;
+    margin-left: 4px;
+}
+.wqgoods .goods-top ul .two .two-3 .p3,.wqgoods .goods-bom ul .two .two-3 .p3{
+    line-height: 35px;
+    text-align: center;
+    color:#B0B0B0
+}
+.wqgoods .goods-bom{
+    margin-top: 14px;
+}
+.wqgoods .goods-bom ul .five{
+    height: 300px;
+    background: #F5F5F5;
+}
+.wqgoods .goods-bom ul .five .goods-t-top{
+    height: 113px;
+    margin-bottom: 14px;
+    background: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+    position: relative;
+}
+.wqgoods .goods-bom ul .five .goods-t-top p{
+    color: #333333;
+    line-height: 38px;
+}
+.wqgoods .goods-bom ul .five .goods-t-top span{
+    color:#FF6700;
+    line-height: 15px;
+}
+.wqgoods .goods-bom ul .five .goods-t-top img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 32px;
+    right: 28px;
+}
+.wqgoods .goods-bom ul .five .goods-t-bom{
+    height: 93px;
+    background: #fff;
+    padding-left: 30px;
+    padding-top: 51px;
+    position: relative;
+
+}
+.wqgoods .goods-bom ul .five .goods-t-bom p{
+    line-height: 26px;
+    color:#333;
+    font-size: 18px;
+}
+.wqgoods .goods-bom ul .five .goods-t-bom span{
+    line-height: 18px;
+    color:#B0B0B0
+
+}
+.wqgoods .goods-bom ul .five .goods-t-bom .iconfont{
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    color:#FF6700;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 42px;
+    border:solid 3px #FF6700;
+    border-radius:50%
+}
+/*补加评价部分样式*/
+.fq{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 169px;
+    height: 67px;
+    background: #FF6700;
+    padding:8px 36px 0 29px;
+    display:none
+}
+.fq p{
+    color:#fff;
+    line-height: 18px;
+}
+.fq span{
+    color:#FFC299;
+    line-height: 28px;
+}
+
+
+
+

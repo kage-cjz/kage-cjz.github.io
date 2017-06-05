@@ -1,0 +1,180 @@
+/*主轮播图  开始*/
+.juan-all{
+    width:1226px;
+    height:460px;
+    margin:0 auto;
+    position:relative;
+}
+.juan-screen{
+    width:1226px;
+    height:460px;
+    overflow:hidden;
+    position:relative;
+}
+.juan-screen li{
+    width:1226px;
+    height:460px;
+    overflow:hidden;
+    float:left;
+}
+.juan-screen ul{
+    position:absolute;
+    left:0; top:0px;
+    width:7356px;
+}
+.juan-all ol{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    line-height:20px;
+    text-align:center;
+}
+.juan-all ol li{
+    float:left;
+    width:20px;
+    height:20px;
+    background:#fff;
+    border:1px solid #ccc;
+    margin-left:10px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.juan-all ol li.current{
+    background:yellow;
+}
+#juan-arr {
+    display: none;
+}
+#juan-arr span{
+    width:40px;
+    height:60px;
+    position:absolute;
+    left:5px; top:50%;
+    margin-top:-30px;
+    background:#000;
+    cursor:pointer;
+    line-height:60px;
+    text-align:center;
+    font-family: "SimSun";
+    color:#fff;
+    opacity:0.1;
+    border:1px solid #fff;
+}
+#juan-arr span i{
+    font-size:30px;
+}
+#juan-arr #juan-left{
+    margin-left: 232px;
+}
+#juan-arr #juan-right{
+    right:5px;
+    left:auto;
+}
+/*主轮播图  结束*/
+
+/*明星产品 开始*/
+.juan-mingxing{
+    height:40px;
+    padding-top:45px;
+}
+
+.juan-mingxing h2{
+    font-size:20px;
+    color:#333333;
+
+}
+.juan-mingxing{
+    position:relative;
+}
+.j-mx-arrow{
+    position:absolute;
+    right:0px;
+    top:45px;
+}
+.j-mx-arrow span{
+    display:inline-block;
+    font-size:30px;
+    text-align:center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 23px;
+}
+.curren2{
+    color:red;
+}
+
+.j-mx-left{
+    display:inline-block;
+    width: 35px;
+    height: 23px;
+    border:1px solid #E0E0E0;
+
+}
+
+.j-mx-right{
+    display:inline-block;;
+    width: 35px;
+    height: 23px;
+    border:1px solid #E0E0E0;
+    border-left:none;
+}
+/*明星产品 结束*/
+/*小米厂品的广告  开始*/
+.juan-mx-c{
+    height: 340px;
+}
+
+.taideng{
+    width: 233px;
+    height: 340px;
+    background-color:#FAFAFA;
+    margin-right:15px;
+}
+.border1{
+    border-top:2px solid #FFAC13;
+}
+.border2{
+    border-top:2px solid #83C44E;
+}
+.border3{
+    border-top:2px solid #2196F3;
+}
+.border4{
+    border-top:2px solid #E53935;
+}
+.border5{
+    border-top:2px solid #00C0A5;
+}
+
+.taideng5{
+    margin-right:0;
+}
+.taideng h5{
+    font-size:14px;
+    color:#212121;
+    text-align: center;
+    line-height:35px;
+}
+
+.taideng p{
+    text-align: center;
+}
+
+.taideng span{
+    display: inline-block;
+    font-size:14px;
+    color:#FF6709;
+    margin-left:96px;
+    margin-top: 15px;
+}
+.juan-mx-c{
+    overflow: hidden;
+    position: relative;
+}
+.juan-huadong{
+    width: 2552px;
+    height: 340px;
+    position:absolute;
+
+}
+/*小米厂品的广告  开始*/

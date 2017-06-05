@@ -1,0 +1,511 @@
+@charset "UTF-8";
+/*初始化  */
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+
+
+
+
+
+@font-face {font-family: "iconfont";
+    src: url('font/iconfont.eot?t=1489379644561'); /* IE9*/
+    src: url('font/iconfont.eot?t=1489379644561#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('font/iconfont.woff?t=1489379644561') format('woff'), /* chrome, firefox */
+    url('font/iconfont.ttf?t=1489379644561') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('font/iconfont.svg?t=1489379644561#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+/*------------------最顶部广告栏开始---------------*/
+#top-banner{
+    width: 100%;
+    background-color: #333;
+    height: 39px;
+    border-top: 1px solid #4d4d4d;
+}
+#top-banner .top-w{
+    width:1226px;
+    margin: 0 auto;
+    line-height: 39px;
+    position: relative;
+}
+/*.top-w ul{*/
+    /*float: left;*/
+/*}*/
+.top-w .xiaomi-shangcheng li{
+    float: left;
+    margin-right: 7px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.top-w .xiaomi-shangcheng li a{
+    color: #b0b0b0;
+}
+.top-w .xiaomi-shangcheng li a:hover{
+    color: #fff;
+}
+.top-w .xiaomi-shangcheng li span{
+    margin-left: 5px;
+    color: #40403b;
+}
+.solign{
+    float: right;
+    margin-right: 140px;
+    
+}
+.solign ul li{
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+    
+}
+.solign ul li a{
+    color: #b0b0b0;
+}
+.solign ul li a:hover{
+    color: #fff;
+}
+.solign ul li span{
+    margin-left: 3px;
+    color: #40403b;
+}
+.solign ul .xiaoxi{
+    margin-left: 5px;
+}
+/*--购物车开始--*/
+.shopcart{
+    height: 39px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    width: 120px;
+    background-color: #424242;
+    text-align: center;
+    color: #b0b0b0;
+    cursor: pointer;
+}
+.shopcart i {
+    font-family: iconfont;
+
+    font-size: 18px;
+    margin-right: 5px;
+}
+.cart{
+    width: 316px;
+    height: 71px;
+    background-color: #fff;
+    padding-top: 30px;
+    position: absolute;
+    top: 39px;
+    right: 0;
+    display: none;
+    box-shadow: 0 5px 15px #e5e5e5;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 99;
+}
+
+
+
+/*--购物车结束--*/
+/*------------------最顶部广告栏结束---------------*/
+
+/*-------------------头部导航联开始------------------*/
+#head{
+    width: 1226px;
+    height: 115px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+}
+#head .logo{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background: #ff6700 url(images/mi-logo.png) no-repeat 3px 3px;
+
+}
+#head .lianjie{
+    position: absolute;
+    top: 38px;
+    left:122px;
+    font-size: 16px;
+}
+#head .lianjie a{
+    color: #333;
+    margin-right: 16px;
+}
+#head form{
+    width: 294px;
+    height: 50px;
+
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+#search{
+    width: 243px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+
+    float: left;
+}
+#anniu{
+    width: 48px;
+    height: 50px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: 0;
+    float: left;
+    font-family: iconfont;
+    font-size: 20px;
+}
+
+#top-search{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+.top-search{
+    position: fixed;
+    top:0;
+    z-index: 100;
+}
+#top-search .w{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+#top-search .w p{
+    float: left;
+    font-size: 18px;
+    color: #424242;
+    line-height: 50px;
+
+}
+#top-search .w ul{
+    margin-right: 133px;
+    float: right;
+}
+#top-search .w ul li{
+    float: left;
+    margin-right: 8px;
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#top-search .w ul li a{
+    color: #333;
+    
+}
+#top-search .w ul li a:hover{
+    color: #ff6700;
+}
+#top-search .w ul li span{
+    color: #e0e3e7;
+    margin-left: 8px;
+}
+#top-search .w .goumai{
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background: #ff6700;
+    right: 0;
+    top: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+
+/*-------------------头部导航联结束------------------*/
+
+/*-------------------------页面内容开始------------------------------*/
+#main{
+    width: 100%;
+    height: 1743px;
+    background: url(images/top-bg.jpg) no-repeat -200px 0;
+    position: relative;
+}
+.main-top{
+    width: 1130px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #ccc;
+    padding-top: 90px;
+    text-align: center;
+}
+.main-top h1{
+    font-size: 50px;
+    margin: 0 auto 40px;
+    /*font-family:"simsun";*/
+    font-weight: 400;
+    letter-spacing: 10px;
+
+}
+.main-top p{
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+.main-bottom{
+    width: 100%;
+    height: 500px;
+    background: #0d0e13;
+    position: absolute;
+    bottom: 0;
+}
+.main-bottom-youxi{
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.main-bottom-youxi h2{
+    font-size: 40px;
+    color: #ccc;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.main-bottom-youxi p{
+    font-size: 18px;
+    color: #ccc;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+.main-bottom-youxi .p1{
+    margin-bottom: 32px;
+}
+.main-bottom-youxi .p2{
+    margin-bottom: 50px;
+}
+
+.main-bottom-youxi h3{
+    font-size: 28px;
+    color: #ccc;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/*---------------------视频区域开始----------------*/
+#slider{
+    width: 1899px;
+    height: 850px;
+    background: #0b0d12;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider .v-play {
+    width: 763px;
+    margin-left: 571px;
+    margin-right: 571px;
+
+}
+
+#slider .v-play ul{
+    width: 5388px;
+    height: 600px;
+    padding-top: 160px;
+    margin-left: -898px;
+    position: absolute;
+    z-index: 9;
+
+}
+#slider .v-play ul li{
+    width: 763px;
+    height: 440px;
+    background: #0b0d12;
+    float: left;
+    margin-right: 135px;
+}
+
+#slider .slider-bottom{
+    width: 984px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+
+}
+#slider .slider-bottom .slider-bg{
+
+    width: 984px;
+    height: 558px;
+    background: transparent url(images/video-bg.png) no-repeat;
+    position: absolute;
+    top: 122px;
+    left: 0;
+}
+#slider .slider-bottom .v-btn{
+    width: 984px;
+}
+#slider .slider-bottom .v-btn .v-prev{
+    position: absolute;
+    width: 31px;
+    height: 72px;
+    cursor: pointer;
+    top: 340px;
+    left: 0;
+    background: url(images/icons.png)0 -72px;
+    z-index: 10;
+}
+#slider .slider-bottom .v-btn .v-next{
+    position: absolute;
+    top: 340px;
+    width: 31px;
+    height: 72px;
+    cursor: pointer;
+    right: 0;
+    background: url(images/icons.png)no-repeat;
+    overflow: hidden;
+    z-index: 10;
+}
+
+
+#presentation{
+    position: absolute;
+    top: 710px;
+    width: 100%;
+    
+}
+#presentation ul li{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 14px;
+    color: #ccc;
+    line-height: 21px;
+    display: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    
+}
+#dot{
+    position: absolute;
+    top: 770px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #212121;
+    border-radius: 50%;
+    background: #212121;
+    margin-right: 20px;
+    cursor: pointer;
+}
+/*---------------------视频区域结束----------------*/
+/*-----------------------滚动区域开始-------------------*/
+#scroll{
+    width: 100%;
+    height: 1240px;
+    background: #0b0d12;
+    overflow: hidden;
+    /*padding-top: 50px;*/
+    position: relative;
+}
+#scroll .scroll-left{
+    width: 866px;
+    height: 1113px;
+    background: transparent url(images/pro-bg.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 180px;
+}
+#scroll .scroll-right{
+    position: absolute;
+    top: 190px;
+    left: 1085px;
+    color: #ccc;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+#scroll .scroll-right h2{
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+#scroll .scroll-right p{
+    margin-bottom: 45px;
+}
+#scroll .scroll-right p span{
+    margin-top: 20px;
+}
+#scroll .scroll-right p span i{
+    color: #2fa4db;
+    font-size: 60px;
+    font-style: normal;
+    line-height: 44px;
+}
+#scroll .scroll-right p span strong{
+    color: #2fa4db;
+    font-size: 52px;
+    font-weight: 400;
+}
+
+
+
+/*-----------------------滚动区域结束-------------------*/
+
+/*-------------------------页面内容结束------------------------------*/
+
+/*------------------轮播图开始------------------*/
+#wrap{
+    width: 1400px;
+    margin: 30px auto;
+    
+}
+.slide{
+    height: 500px;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left: 200px;
+    top: 0;
+}
+.slide li img{
+    width: 100%;
+    height: 100%;
+}
+.arrow{
+    display: none;
+}
+ #left{
+     width: 41px;
+     height: 69px;
+     position: absolute;
+     top: 60%;
+     /*transform: translate(0,-50%);*/
+     margin-top: -35px;
+     background:url("images/jian.png") no-repeat;
+     z-index: 99;
+     overflow: hidden;
+ }
+ #right{
+     width: 41px;
+     height: 69px;
+     position: absolute;
+     top: 60%;
+     right: 0;
+     /*transform: translate(0,-50%);*/
+     margin-top: -35px;
+     background:url("images/jian.png") -41px 0;
+     overflow: hidden;
+     z-index: 99;
+ }
+ /*---------------------轮播图结束-------------------*/

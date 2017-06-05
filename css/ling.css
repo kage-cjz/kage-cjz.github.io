@@ -1,0 +1,299 @@
+/*张灵部分开始*/
+.product-container {
+    margin-top: 40px;
+    padding-top: 40px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.intel-hardWare {
+    height: 686px;
+}
+.intel-hardWare .intel-hardWare-caption {
+    width: 100%;
+    height: 58px;
+    font: 22px/58px "Microsoft Yahei";
+    color: #333333;
+}
+.intel-hardWare .intel-hardWare-caption h3 {
+    float: left;
+}
+.intel-hardWare .intel-hardWare-caption span {
+    float: right;
+    height: 58px;
+    overflow: hidden;
+}
+.intel-hardWare .intel-hardWare-caption span a {
+    font-size: 16px;
+    cursor: pointer;
+}
+.intel-hardWare .intel-hardWare-caption span a:hover {
+    color: #FF6700;
+}
+.intel-hardWare-caption span a i {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.intel-hardWare-content {
+    width: 100%;
+}
+.intel-hardWare-l {
+    float: left;
+    width: 234px;
+    height: 614px;
+}
+.intel-hardWare-l:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    background-color: #ccc;
+    -webkit-transform: translate3D(-2px,-2px,0);
+}
+.intel-hardWare-content .intel-hardWare-l a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.intel-hardWare-content .intel-hardWare-l a img {
+    width: 234px;
+    height: 614px;
+}
+.intel-hardWare-r {
+    float: left;
+    width: 992px;
+    height: 614px;
+}
+.intel-hardWare-r ul {
+    width: 992px;
+    height: 628px;
+}
+.intel-hardWare-r .intel-hardWare-list .intel-hardWare-item {
+    position: relative;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    padding: 20px 0;
+    width: 234px;
+    height: 260px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transition: background-color 1s linear;
+}
+.intel-hardWare-r .intel-hardWare-list .intel-hardWare-item:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    background-color: #ccc;
+    -webkit-transform: translate3D(-2px,-2px,0);
+}
+.intel-hardWare-list .intel-hardWare-item .product-img {
+    width: 160px;
+    height: 160px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+.intel-hardWare-item .product-img a {
+    display: block;
+}
+.intel-hardWare-item .product-img a img {
+    width: 160px;
+    height: 160px;
+    text-align: center;
+}
+.intel-hardWare-item h4 {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+.intel-hardWare-item .product-des {
+    padding-bottom: 10px;
+    font-size: 12px;
+    /*line-height: 5px;*/
+    color: #B0B0D0;
+}
+.intel-hardWare-item .product-price {
+    font-size: 16px;
+    color: #ff6700;
+}
+.intel-hardWare-item .intel-hot-tag {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32px;
+    width: 64px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #83c44e;
+    color: #fff;
+
+}
+/*智能硬件部分结束*/
+
+/*搭配部分开始*/
+.product-container .match {
+    padding-top: 8px;
+}
+.intel-hardWare-caption .match-caption-list {
+    float: right;
+}
+.intel-hardWare-caption .match-caption-list .match-caption-item {
+    margin-left: 30px;
+    float: left;
+    font-size: 16px;
+}
+.match-caption-list .match-title-active a {
+    color: #FF6700;
+    border-bottom: 2px solid #FF6700;
+}
+.intel-hardWare-l .match-content-l-list {
+    width: 100%;
+    height: 614px;
+}
+.intel-hardWare-l .match-content-l-list .match-c-l-item {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 14px;
+}
+.intel-hardWare-l .match-content-l-list .match-c-l-item:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    -webkit-transform: translate3D(-2px,-2px,0);
+}
+.intel-hardWare-l .match-content-l-list .match-c-l-item a {
+    display: block;
+}
+.intel-hardWare-l .match-content-l-list .match-c-l-item img {
+    width: 234px;
+    height: 300px;
+}
+.intel-hardWare-content .intel-hardWare-r .tab-content-hide {
+    display: none;
+}
+.intel-hardWare-content .intel-hardWare-r .tab-content-active {
+    display: block;
+}
+.intel-hardWare-content .intel-hardWare-r .intel-hardWare-item .match-img {
+    width: 150px;
+    height: 150px;
+    padding-bottom: 25px;
+}
+ .intel-hardWare-item .match-img a img{
+    width: 150px;
+    height: 150px;
+}
+.intel-hardWare-r .intel-hardWare-item .match-price {
+    padding-top: 4px;
+}
+.intel-hardWare-r .intel-hardWare-item .match-rank {
+    padding-top: 20px;
+    font-size: 12px;
+}
+.intel-hardWare-content .intel-hardWare-r .intel-hardWare-list .match-item-banner {
+    width: 234px;
+    height: 300px;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+.match-item-banner .match-item-b-top {
+    position: relative;
+    height: 144px;
+    margin-bottom: 12px;
+    background-color: #fff;
+}
+.match-item-banner .match-item-b-top .match-b-t-img {
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 80px;
+    height: 80px;
+}
+.match-item-banner .match-item-b-top .match-b-t-des {
+    display: block;
+    padding-top: 42px;
+    margin-left: 30px;
+    text-align: left;
+}
+.match-item-b-top .match-b-t-des a {
+    color: #333333;
+}
+.match-item-b-top .match-b-price {
+    margin: 0 110px 0 30px;
+    font-size: 14px;
+    text-align: left;
+    color: #FF6700;
+}
+.match-item-b-bottom {
+    position: relative;
+    padding-top: 50px;
+    width: 204px;
+    height: 94px;
+    text-align: left;
+    margin-bottom: 12px;
+    padding-left: 30px;
+    background-color: #fff;
+}
+.match-item-b-bottom a {
+    display: block;
+}
+.match-item-banner .match-item-b-bottom .more {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #333333;
+}
+.match-item-b-bottom .hot-word {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #757575;
+}
+.match-item-b-bottom .more:hover, .hot-word:hover{
+    color: #FF6700;
+}
+.match-item-b-bottom i {
+    position: absolute;
+    top: 62px;
+    right: 35px;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+}
+.match-item-b-bottom i:hover {
+    color: #FF6700;
+}
+.intel-hardWare-item .wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 234px;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+.intel-hardWare-item .wrapper a {
+    display: block;
+    padding: 8px 30px;
+    height: 62px;
+    font-size: 12px;
+    background-color: #FF6700;
+    color: #fff;
+}
+.intel-hardWare-item .wrapper .review {
+    display: block;
+    margin-bottom: 5px;
+}
+.intel-hardWare-item .wrapper .autho {
+    display: block;
+    color: rgba(255,255,255,0.6);
+}
+/*搭配部分结束*/
+
+
+
+
+
+
+
+
+
+
+
